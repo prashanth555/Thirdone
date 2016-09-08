@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9333C8781D81A7A800573D25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9333C8771D81A7A800573D25 /* AppDelegate.swift */; };
+		9333C87A1D81A7A800573D25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9333C8791D81A7A800573D25 /* ViewController.swift */; };
+		9333C87D1D81A7A800573D25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9333C87B1D81A7A800573D25 /* Main.storyboard */; };
+		9333C8801D81A7A800573D25 /* Thirdone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9333C87E1D81A7A800573D25 /* Thirdone.xcdatamodeld */; };
+		9333C8821D81A7A800573D25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9333C8811D81A7A800573D25 /* Assets.xcassets */; };
+		9333C8851D81A7A800573D25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9333C8831D81A7A800573D25 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9333C8741D81A7A800573D25 /* Thirdone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thirdone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9333C8771D81A7A800573D25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9333C8791D81A7A800573D25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9333C87C1D81A7A800573D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9333C87F1D81A7A800573D25 /* Thirdone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Thirdone.xcdatamodel; sourceTree = "<group>"; };
+		9333C8811D81A7A800573D25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9333C8841D81A7A800573D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9333C8861D81A7A800573D25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9333C8711D81A7A800573D25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9333C86B1D81A7A800573D25 = {
+			isa = PBXGroup;
+			children = (
+				9333C8761D81A7A800573D25 /* Thirdone */,
+				9333C8751D81A7A800573D25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9333C8751D81A7A800573D25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9333C8741D81A7A800573D25 /* Thirdone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9333C8761D81A7A800573D25 /* Thirdone */ = {
+			isa = PBXGroup;
+			children = (
+				9333C8771D81A7A800573D25 /* AppDelegate.swift */,
+				9333C8791D81A7A800573D25 /* ViewController.swift */,
+				9333C87B1D81A7A800573D25 /* Main.storyboard */,
+				9333C8811D81A7A800573D25 /* Assets.xcassets */,
+				9333C8831D81A7A800573D25 /* LaunchScreen.storyboard */,
+				9333C8861D81A7A800573D25 /* Info.plist */,
+				9333C87E1D81A7A800573D25 /* Thirdone.xcdatamodeld */,
+			);
+			path = Thirdone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9333C8731D81A7A800573D25 /* Thirdone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9333C8891D81A7A800573D25 /* Build configuration list for PBXNativeTarget "Thirdone" */;
+			buildPhases = (
+				9333C8701D81A7A800573D25 /* Sources */,
+				9333C8711D81A7A800573D25 /* Frameworks */,
+				9333C8721D81A7A800573D25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thirdone;
+			productName = Thirdone;
+			productReference = 9333C8741D81A7A800573D25 /* Thirdone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9333C86C1D81A7A800573D25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = pathan555;
+				TargetAttributes = {
+					9333C8731D81A7A800573D25 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 92ML5B39VK;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9333C86F1D81A7A800573D25 /* Build configuration list for PBXProject "Thirdone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9333C86B1D81A7A800573D25;
+			productRefGroup = 9333C8751D81A7A800573D25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9333C8731D81A7A800573D25 /* Thirdone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9333C8721D81A7A800573D25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9333C8851D81A7A800573D25 /* LaunchScreen.storyboard in Resources */,
+				9333C8821D81A7A800573D25 /* Assets.xcassets in Resources */,
+				9333C87D1D81A7A800573D25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9333C8701D81A7A800573D25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9333C87A1D81A7A800573D25 /* ViewController.swift in Sources */,
+				9333C8801D81A7A800573D25 /* Thirdone.xcdatamodeld in Sources */,
+				9333C8781D81A7A800573D25 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9333C87B1D81A7A800573D25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9333C87C1D81A7A800573D25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9333C8831D81A7A800573D25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9333C8841D81A7A800573D25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9333C8871D81A7A800573D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9333C8881D81A7A800573D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9333C88A1D81A7A800573D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92ML5B39VK;
+				INFOPLIST_FILE = Thirdone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pathan555.Thirdone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9333C88B1D81A7A800573D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92ML5B39VK;
+				INFOPLIST_FILE = Thirdone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pathan555.Thirdone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9333C86F1D81A7A800573D25 /* Build configuration list for PBXProject "Thirdone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9333C8871D81A7A800573D25 /* Debug */,
+				9333C8881D81A7A800573D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9333C8891D81A7A800573D25 /* Build configuration list for PBXNativeTarget "Thirdone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9333C88A1D81A7A800573D25 /* Debug */,
+				9333C88B1D81A7A800573D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9333C87E1D81A7A800573D25 /* Thirdone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9333C87F1D81A7A800573D25 /* Thirdone.xcdatamodel */,
+			);
+			currentVersion = 9333C87F1D81A7A800573D25 /* Thirdone.xcdatamodel */;
+			path = Thirdone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9333C86C1D81A7A800573D25 /* Project object */;
+}
